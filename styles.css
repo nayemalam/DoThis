@@ -52,8 +52,30 @@ header button.addToDo{
   margin-right: 15px;
   position: relative;
   z-index: 15;
-  font-size: 15px;
 }
+
+header button:hover {
+  background-image: linear-gradient(#fff,#e2e2e2);
+  cursor: pointer;
+
+}
+
+ul.todo {
+  padding-left: 20px;
+  margin: 20px;
+  padding: 5px;
+  background-color: #fff;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+ul li {
+  position: static;
+  padding-left: 15px;
+  /* color: #c4c6c6; */ done color
+}
+
+
 
 
 /* div.circle.is-pulled-right {
