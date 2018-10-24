@@ -1,43 +1,72 @@
+body {
+  background-color: #f9f9f9;
+}
+h1.title {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
 .bg {
   background-color: #EDF1F2;
   max-width: 375px;
   height: 667px;
   margin: 0 auto;
 }
-.nav-top {
+header {
   background-color: #ea6161;
   height: 60px;
   width: 100%;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   z-index: 12;
+  box-shadow: 0 2px 4px rgba(44,62,80,0.15);
+  position: static;
+  padding: 15px;
 }
-div.circle.is-pulled-right {
+
+input.search {
+  background: #fff;
+  margin: 0 20px 0 20px;
+  z-index: 13;
+  opacity: 0.5;
+  float: left;
+  width: 300px;
+  height: 30px;
+  outline: none;
+}
+input.search::-webkit-input-placeholder {
+  color: #000;
+  z-index: 14;
+  padding: 15px;
+}
+
+
+/* div.circle.is-pulled-right {
   background-color: #fff;
   width: 40px;
   height: 40px;
   border-radius: 100px;
   margin: 10px 15px 0 0;
   z-index: 10;
-}
+} */
 
-p.plus.is-pulled-right {
+/* p.plus.is-pulled-right {
   text-align: center;
   font-size: 40px;
   color: #000;
   margin: -3px -33px 0 0;
   color: #ea6161;
   z-index: 11;
-}
-div.search {
+} */
+
+/* div.search {
   background: #fff;
   margin: 0 20px 0 20px;
   z-index: 13;
   opacity: 0.5;
-}
-div>p.someText {
-  color: #000;
-}
+
+} */
+
 
 /* @media only screen and (max-width: 600px) {
     html>body.bg {
